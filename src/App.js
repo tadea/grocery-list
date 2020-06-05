@@ -14,6 +14,18 @@ function App() {
             <th>Action</th>
           </tr>
         </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Eggs</td>
+            <td>12</td>
+            <td>
+              <button>Edit</button>
+              <button>Remove</button>
+            </td>
+          </tr>
+        </tbody>
       </Table>
     </div>
   );
