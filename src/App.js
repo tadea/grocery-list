@@ -1,5 +1,5 @@
 import React from "react";
-import { Table, Button} from "reactstrap";
+import { Table, Button } from "reactstrap";
 
 function App() {
   return (
@@ -20,8 +20,8 @@ function App() {
             <td>Eggs</td>
             <td>12</td>
             <td>
-              <Button>Edit</Button>
-              <Button>Remove</Button>
+              <Button color="info">Edit</Button>
+              <Button color="danger">Remove</Button>
             </td>
           </tr>
         </tbody>
