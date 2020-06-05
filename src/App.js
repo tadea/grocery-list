@@ -20,8 +20,8 @@ function App() {
             <td>Eggs</td>
             <td>12</td>
             <td>
-              <Button color="info">Edit</Button>
-              <Button color="danger">Remove</Button>
+              <Button color="info" size="sm">Edit</Button>
+              <Button color="danger"size="sm">Remove</Button>
             </td>
           </tr>
         </tbody>
