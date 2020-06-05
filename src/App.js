@@ -1,7 +1,20 @@
 import React from "react";
+import axios from "axios";
 import { Table, Button } from "reactstrap";
 
 class App extends React.Component {
+  state = {
+    groceries: [],
+  };
+
+  componentDidMount() {
+    axios.get(`http://localhost:3000/groceries`).then((response) => {
+      this.setState({
+        groceries: response.data,
+      });
+    });
+  }
+
   render() {
     return (
       <div>
