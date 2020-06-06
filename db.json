@@ -1,0 +1,29 @@
+{
+  "groceries": [
+    {
+      "id": 1,
+      "item": "bread",
+      "amount": "1"
+    },
+    {
+      "id": 2,
+      "item": "milk",
+      "amount": "3"
+    },
+    {
+      "item": "water",
+      "amount": "10",
+      "id": 3
+    },
+    {
+      "item": "water",
+      "amount": "10",
+      "id": 4
+    },
+    {
+      "item": "cheese",
+      "amount": "1",
+      "id": 5
+    }
+  ]
+}
